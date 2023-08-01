@@ -1,0 +1,143 @@
+/*375 480 768 960 1200*/
+
+@media screen and (min-width: 375px) and (max-width: 768px){
+    #titulo{
+        width: 300px;
+        font-size: 40px;
+    }
+    #primaria{
+        display: flex;
+        margin: 0 0 0 0 ;
+        padding: 20px 0 0 0;
+        gap: 25px ;
+    }
+    #secundaria, #terciaria{
+        margin: 0px 30px;
+    }
+    #navegacao{
+        padding: 20px 0px 25px 0px;
+    }
+    #info{
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        width: 250px !important;
+    }
+    #primaria #foto{
+        display: flex;
+        justify-content: flex-start;    
+    }
+}
+
+@media screen and (min-width: 767px) {
+    #primaria{
+        display: flex;
+        flex-flow: row;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    #primaria #foto{
+        display: flex;
+        justify-content: flex-start;
+    }
+    #primaria #contato{
+        display: flex;
+        justify-content: flex-start;
+    }
+    #contato img{
+        width: 50px;
+    }
+    #navegacao{
+        justify-content: flex-end;
+        padding: 15pox 0 15px 0;
+        gap: 100px;
+        margin-right: 150px;
+    }
+    #titulo{
+        font-size: 40px;
+        width: 450px;
+    }
+    #anime{
+        font-size: 20px;
+    }
+    #projetos{
+        display: flex;
+        justify-content: space-around;
+        flex-flow: row wrap;
+        margin: 0px 100px;
+    }
+    #secundaria, #terciaria{
+        margin: 0px 30px;
+    }
+    #terciaria{
+        margin: 0 25px 25px 25px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+
+    footer{
+        display: flex;
+        flex-flow: row;
+        padding: 80px;
+    }
+
+    footer #texto{
+        width: 500px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px){
+    #primaria{
+        display: flex;
+        justify-content: center;
+        margin: 0px;
+        gap: 150px;
+    }
+    #primaria #foto{
+        width: 350px;
+    }
+
+    #primaria #info{
+        width: 450px;
+    }
+    #navegacao{
+        padding: 15px 0px 25px 0px;
+    }
+    #titulo{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1280px){
+    #titulo{
+        font-size: 60px;
+        width: 560px;
+    }
+    #primaria{
+        display: flex;
+        justify-content: center;
+        gap: 200px ;
+        padding: 60px;
+    }
+    #primaria #foto{
+        width: 350px;
+    }
+    #navegacao{
+        padding: 25px 0px 25px 0px;
+        margin-right: 200px;
+    }
+    #navegacao{
+        font-size: 20px;
+    }
+    #secundaria{
+        margin: 60px 200px;
+        padding: 80px;
+    }
+    #terciaria{
+        margin: 60px 200px;
+        padding: 80px;
+    }
+}
